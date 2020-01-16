@@ -1,0 +1,34 @@
+{
+    "name": "react-table-dynamic",
+    "version": "0.1.0",
+    "description": "React table dynamic generated",
+    "main": "build/index.js",
+    "scripts": {
+        "build": "babel lib -d build",
+        "lint": "eslint lib/**; exit 0",
+        "lint:watch": "esw -w lib/**",
+        "prepublish": "npm run build"
+    },
+    "keywords": [
+        "npm",
+        "react-table",
+        "react-table-dynamic"
+    ],
+    "author": "Nicolas Troles",
+    "license": "MIT",
+    "dependencies": {
+        "@babel/preset-react": "^7.8.3",
+        "@testing-library/jest-dom": "^4.2.4",
+        "@testing-library/react": "^9.3.2",
+        "@testing-library/user-event": "^7.1.2",
+        "react": "^16.12.0",
+        "react-dom": "^16.12.0",
+        "react-scripts": "3.3.0",
+        "styled-components": "^5.0.0",
+        "prop-types": "^15.7.2"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:NicolasTroles/react-table-dynamic.git"
+    }
+}
