@@ -43,6 +43,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git@github.com"
+        "url": "git@github.com:NicolasTroles/react-table-dynamic.git"
     }
 }
