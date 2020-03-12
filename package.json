@@ -1,8 +1,8 @@
 {
     "name": "react-table-dynamic",
-    "version": "0.1.0",
-    "description": "React table dynamic generated",
-    "main": "build/index.js",
+    "version": "0.0.6",
+    "description": "A dynamic table to use in react projects",
+    "main": "build/Table/Table.js",
     "scripts": {
         "build": "babel lib -d build",
         "lint": "eslint lib/**; exit 0",
@@ -10,25 +10,39 @@
         "prepublish": "npm run build"
     },
     "keywords": [
-        "npm",
-        "react-table",
-        "react-table-dynamic"
+        "components",
+        "component",
+        "react",
+        "react-component",
+        "react table",
+        "table component"
     ],
-    "author": "Nicolas Troles",
+    "author": "Diego Jacomel",
     "license": "MIT",
     "dependencies": {
-        "@babel/preset-react": "^7.8.3",
-        "@testing-library/jest-dom": "^4.2.4",
-        "@testing-library/react": "^9.3.2",
-        "@testing-library/user-event": "^7.1.2",
-        "react": "^16.12.0",
-        "react-dom": "^16.12.0",
-        "react-scripts": "3.3.0",
-        "styled-components": "^5.0.0",
-        "prop-types": "^15.7.2"
+        "babel-preset-react": "^6.24.1",
+        "prop-types": "^15.7.2",
+        "react": "^16.9.0",
+        "react-dom": "^16.9.0",
+        "react-modal": "^3.8.1",
+        "react-router-dom": "^5.1.2",
+        "styled-components": "^4.3.2"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-core": "^6.26.3",
+        "babel-eslint": "^10.0.2",
+        "babel-preset-es2015": "^6.24.1",
+        "eslint": "^6.2.1",
+        "eslint-config-airbnb": "^18.0.1",
+        "eslint-plugin-import": "^2.18.2",
+        "eslint-plugin-jsx-a11y": "^6.2.3",
+        "eslint-plugin-react": "^7.14.3",
+        "eslint-watch": "^6.0.0",
+        "polished": "^3.4.1"
     },
     "repository": {
         "type": "git",
-        "url": "git@github.com:NicolasTroles/react-table-dynamic.git"
+        "url": "git@github.com"
     }
 }
