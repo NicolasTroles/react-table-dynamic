@@ -1,6 +1,6 @@
 {
     "name": "react-table-dynamic",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "description": "A dynamic table to use in react projects",
     "main": "build/Table/Table.js",
     "scripts": {
